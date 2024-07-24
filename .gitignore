@@ -1,0 +1,6 @@
+data/iemocap/iemocap_features_roberta.pkl
+data/iemocap/IEMOCAP_features.pkl
+data/iemocap/iemocap_data.pkl
+data/meld/MELD_features_raw1.pkl
+data/meld/meld_features_roberta.pkl
+.vscode/
