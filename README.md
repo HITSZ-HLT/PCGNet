@@ -7,12 +7,11 @@
 
 ## Requirements
 * Python 3.10.13
-* PyTorch 1.13.1+cu117
-* CUDA 11.7
+* PyTorch 1.13.1
 * torch_geometric 2.4.0
 * torch-scatter 2.1.0
 * torch-sparse 0.5.15
-* torch
+* CUDA 11.7
 
 ## Preparation
 
@@ -67,30 +66,15 @@ python code/inference.py --dataset MELD --data_dir ./data/meld/MELD_features_raw
 ```
 
 
-
-## More details on personality traits
-We have open-sourced the features of conversational personality traits extracted based on CRNet. We will gradually open-source the extraction code in the future.
-
-
-
-
 ## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
 ```
-@inproceedings{10.1145/3626772.3657944,
-author = {Tu, Geng and Xiong, Feng and Liang, Bin and Xu, Ruifeng},
+@inproceedings{tu2024persona,
 title = {A Persona-Infused Cross-Task Graph Network for Multimodal Emotion Recognition with Emotion Shift Detection in Conversations},
-year = {2024},
-isbn = {9798400704314},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3626772.3657944},
-doi = {10.1145/3626772.3657944},
+author = {Tu, Geng and Xiong, Feng and Liang, Bin and Xu, Ruifeng},
+booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
 pages = {2266–2270},
-numpages = {5},
-keywords = {emotion shift detection, multi-task learning, multimodal conversational emotion detection, personality influence},
-location = {Washington DC, USA},
-series = {SIGIR '24}
+year = {2024}
 }
 ```
 
